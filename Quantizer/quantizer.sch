@@ -205,8 +205,6 @@ N 398.75 180 398.75 292.5 {
 lab=Vss}
 N -208.75 -5 -208.75 145 {
 lab=ON}
-N -208.75 -5 -73.75 -5 {
-lab=ON}
 N -208.75 205 -208.75 292.5 {
 lab=Vss}
 N -208.75 175 -186.25 175 {
@@ -243,10 +241,6 @@ N 596.25 -77.5 596.25 -55 {
 lab=OP}
 N 596.25 -242.5 596.25 -137.5 {
 lab=Vdd}
-N 636.25 -242.5 636.25 -107.5 {
-lab=Vdd}
-N 596.25 -242.5 636.25 -242.5 {
-lab=Vdd}
 N 486.25 -240 596.25 -240 {
 lab=Vdd}
 N 571.25 -107.5 596.25 -107.5 {
@@ -279,46 +273,130 @@ N 250 175 252.5 175 {
 lab=InN}
 N -117.5 185 -112.5 185 {
 lab=InP}
-N -73.75 -60 55 -60 {
-lab=ON}
-N -75 115 -20 115 {
-lab=nodeA1}
-N -20 -240 -20 55 {
-lab=Vdd}
-N 125 -240 125 35 {
-lab=Vdd}
-N 110 -35 205 -35 {
-lab=OP}
-N 30 -35 50 -35 {
-lab=Vdd}
-N 30 -240 30 -35 {
-lab=Vdd}
 N 205 -35 206.25 -35 {
 lab=OP}
-N 373.75 -135 373.75 -68.75 {
-lab=Clk}
-N 125 95 220 95 {
-lab=NodeA2}
-N -285 56.25 -178.75 56.25 {
-lab=Clk}
 N -285.625 56.25 -283.75 56.25 {
 lab=Clk}
-N -178.75 56.25 -177.5 56.25 {
-lab=Clk}
-N -177.5 53.75 -177.5 56.25 {
-lab=Clk}
-N -177.5 -6.25 -177.5 -5 {
-lab=ON}
-N -305 -240 -305 -205.625 {
-lab=Vdd}
 N 115.625 -240 115.625 -239.375 {
 lab=Vdd}
-N 114.375 -60 125 -60 {
+N -715 -60 -715 -45 {
+lab=nodeA1}
+N -716.25 -90 -685 -90 {
 lab=Vdd}
-N -305 -205.625 -305 -203.75 {
+N -685 -120 -685 -90 {
 lab=Vdd}
-N 75 -5 90 -5 {
+N -753.75 -120 -753.75 -90 {
+lab=Vdd}
+N -753.75 -120 -715 -120 {
+lab=Vdd}
+N 766.25 -67.5 766.25 -58.75 {
+lab=NodeA2}
+N 752.5 -97.5 767.5 -97.5 {
+lab=Vdd}
+N 752.5 -126.25 752.5 -97.5 {
+lab=Vdd}
+N 752.5 -128.75 752.5 -126.25 {
+lab=Vdd}
+N 752.5 -128.75 766.25 -128.75 {
+lab=Vdd}
+N 766.25 -128.75 766.25 -127.5 {
+lab=Vdd}
+N 806.25 -128.75 806.25 -97.5 {
+lab=Vdd}
+N 766.25 -128.75 806.25 -128.75 {
+lab=Vdd}
+N -485 -45 -483.75 -45 {
+lab=ON}
+N -713.75 -120 -713.75 -118.75 {
+lab=Vdd}
+N -715 -60 -713.75 -60 {
+lab=nodeA1}
+N -715 -45 -715 110 {
+lab=nodeA1}
+N -715 110 -355 110 {
+lab=nodeA1}
+N -355 110 -353.75 110 {
+lab=nodeA1}
+N 600 -240 800 -240 {
+lab=Vdd}
+N 800 -240 805 -240 {
+lab=Vdd}
+N 806.25 -240 806.25 -128.75 {
+lab=Vdd}
+N 805 -240 806.25 -240 {
+lab=Vdd}
+N 766.25 -60 766.25 95 {
+lab=NodeA2}
+N 466.25 95 767.5 95 {
+lab=NodeA2}
+N 905 -241.25 905 -82.5 {
+lab=Vdd}
+N 765 95 905 95 {
+lab=NodeA2}
+N 905 -22.5 905 95 {
+lab=NodeA2}
+N 806.25 -240 905 -240 {
+lab=Vdd}
+N 588.75 -240 600 -240 {
+lab=Vdd}
+N 636.25 -240 636.25 -107.5 {
+lab=Vdd}
+N -713.75 -245 -713.75 -120 {
+lab=Vdd}
+N -713.75 -245 -522.5 -245 {
+lab=Vdd}
+N -522.5 -245 -522.5 -242.5 {
+lab=Vdd}
+N -685 -243.75 -685 -118.75 {
+lab=Vdd}
+N -685 -245 -685 -243.75 {
+lab=Vdd}
+N -715 -120 -713.75 -120 {
+lab=Vdd}
+N -920 -245 -920 -105 {
+lab=Vdd}
+N -920 -245 -713.75 -245 {
+lab=Vdd}
+N -920 -45 -920 108.75 {
+lab=nodeA1}
+N -920 108.75 -715 108.75 {
+lab=nodeA1}
+N 596.25 -55 692.5 -55 {
 lab=OP}
+N 692.5 -81.25 692.5 -55 {
+lab=OP}
+N 692.5 -240 692.5 -141.25 {
+lab=Vdd}
+N -633.75 -70 -633.75 -48.75 {
+lab=ON}
+N -633.75 -48.75 -633.75 -46.25 {
+lab=ON}
+N -633.75 -46.25 -483.75 -46.25 {
+lab=ON}
+N -633.75 -245 -633.75 -131.25 {
+lab=Vdd}
+N -633.75 -71.25 -633.75 -70 {
+lab=ON}
+N -73.75 -45 36.25 -45 {
+lab=ON}
+N 96.25 -45 206.25 -45 {
+lab=OP}
+N 410 -156.25 410 -138.75 {
+lab=Clk}
+N 410 -138.75 410 -135 {
+lab=Clk}
+N 410 -240 410 -215 {
+lab=Vdd}
+N 383.75 -66.25 383.75 -55 {
+lab=OP}
+N 383.75 -135 383.75 -123.75 {
+lab=Clk}
+N -261.25 -145 -261.25 -117.5 {
+lab=Clk}
+N -261.25 -57.5 -261.25 -45 {
+lab=ON}
+N -208.75 -5 -73.75 -5 {
+lab=ON}
 C {sky130_fd_pr/nfet_01v8.sym} -93.75 185 0 0 {name=M29
 L=1
 W=2
@@ -465,7 +543,7 @@ C {devices/title.sym} -432.5 425.3125 0 0 {name=l1 author="Amirhossein zanjani"}
 C {sky130_fd_pr/nfet_01v8.sym} 433.75 180 0 1 {name=M1
 L=1
 W=2
-nf=4 
+nf=5 
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
@@ -479,7 +557,7 @@ spiceprefix=X
 C {sky130_fd_pr/nfet_01v8.sym} -228.75 175 0 0 {name=M2
 L=1
 W=2
-nf=4 
+nf=5 
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
@@ -539,43 +617,71 @@ C {devices/ipin.sym} -117.5 185 2 1 {name=p3 lab=InP}
 C {devices/ipin.sym} 252.5 175 2 0 {name=p1 lab=InN}
 C {devices/iopin.sym} -73.75 -25 2 0 {name=p5 lab=ON}
 C {devices/iopin.sym} 206.25 -28.75 2 1 {name=p4 lab=OP}
-C {devices/capa.sym} 85 -60 3 0 {name=C1
+C {sky130_fd_pr/pfet_01v8.sym} -733.75 -90 0 0 {name=M6
+L=1
+W=4
+nf=1
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}
+C {sky130_fd_pr/pfet_01v8.sym} 786.25 -97.5 0 1 {name=M7
+L=1
+W=4
+nf=1
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}
+C {devices/capa.sym} 905 -52.5 0 0 {name=C4
 m=1
-value=3.74f
+value=3.10f
 footprint=1206
 device="ceramic capacitor"}
-C {devices/capa.sym} -20 85 0 0 {name=C3
+C {devices/capa.sym} -920 -75 0 0 {name=C3
 m=1
-value=2.44f
+value=3.17f
 footprint=1206
 device="ceramic capacitor"}
-C {devices/capa.sym} 125 65 0 0 {name=C0
+C {devices/capa.sym} 692.5 -111.25 0 0 {name=C1
 m=1
-value=2.6f
+value=3.37f
 footprint=1206
 device="ceramic capacitor"}
-C {devices/capa.sym} 80 -35 1 1 {name=C6
+C {devices/capa.sym} -633.75 -101.25 0 0 {name=C5
 m=1
-value=3.7f
+value=3.45f
 footprint=1206
 device="ceramic capacitor"}
-C {devices/capa.sym} -305 -175 0 0 {name=C4
-m=1
-value=17.41f
-footprint=1206
-device="ceramic capacitor"}
-C {devices/capa.sym} 373.75 -40 2 0 {name=C2
-m=1
-value=2.63f
-footprint=1206
-device="ceramic capacitor"}
-C {devices/capa.sym} -177.5 23.75 0 0 {name=C5
-m=1
-value=2.31f
-footprint=1206
-device="ceramic capacitor"}
-C {devices/capa.sym} 45 -5 1 1 {name=C7
+C {devices/capa.sym} 66.25 -45 3 0 {name=C2
 m=1
 value=4.89f
+footprint=1206
+device="ceramic capacitor"}
+C {devices/capa.sym} 410 -186.25 0 0 {name=C7
+m=1
+value=15.64f
+footprint=1206
+device="ceramic capacitor"}
+C {devices/capa.sym} 383.75 -95 2 0 {name=C6
+m=1
+value=2.62f
+footprint=1206
+device="ceramic capacitor"}
+C {devices/capa.sym} -261.25 -87.5 2 0 {name=C0
+m=1
+value=2.30f
 footprint=1206
 device="ceramic capacitor"}
